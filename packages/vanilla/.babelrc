@@ -4,11 +4,14 @@
       "env",
       {
         "targets": {
-          "browsers": "> 1%",
-        }
+          "browsers": "> 1%"
+        },
+        "modules": false
       }
     ],
     "stage-2"
   ],
-  "plugins": []
+  "plugins": [
+    "external-helpers"
+  ]
 }
