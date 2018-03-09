@@ -1,5 +1,5 @@
-import Core from '_core.js';
-import Button from 'components/button/button';
+import Core from '/helpers/js/_core';
+import Button from '/components/button/button';
 import Template from './profile-flyout-content.html';
 import './profile-flyout-content.scss';
 

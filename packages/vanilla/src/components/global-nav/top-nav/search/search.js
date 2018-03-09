@@ -1,8 +1,8 @@
 /* globals window */
-import Interface from 'interface.json';
-import Core from '_core.js';
-import Icon from 'basics/icon/icon';
-import Option from 'basics/form-elements/option/option';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import Icon from '/basics/icon/icon';
+import Option from '/basics/form-elements/option/option';
 import Template from './search.html';
 import './search.scss';
 

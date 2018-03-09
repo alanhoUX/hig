@@ -1,6 +1,6 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
-import TextField from 'basics/form-elements/text-field/text-field';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import TextField from '/basics/form-elements/text-field/text-field';
 import Template from './password-field.html';
 
 const textFieldMethods = [

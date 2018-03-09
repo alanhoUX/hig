@@ -1,6 +1,6 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
-import frToPercentage from 'helpers/js/_frtopercentage';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import frToPercentage from '/helpers/js/_frtopercentage';
 import Template from './text-head-cell.html';
 import './text-head-cell.scss';
 

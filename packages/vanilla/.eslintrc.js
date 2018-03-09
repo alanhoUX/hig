@@ -20,9 +20,10 @@ module.exports = {
     'class-methods-use-this': 0,
     "comma-dangle": ["error", {
       "functions": "never"
-    }],  
+    }],
     'import/no-dynamic-require': 0,
     'import/no-extraneous-dependencies': 0,
+    'import/extensions': [ 'always', { js: 'never' }, { ignorePackages: true } ],
     'jsx-a11y/href-no-hash': 0,
     'max-len': [1, { code: 100 }],
     'no-param-reassign': 1,

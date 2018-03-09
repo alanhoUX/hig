@@ -1,7 +1,7 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
-import Tabs from 'components/global-nav/sub-nav/tabs/tabs';
-import Icon from 'basics/icon/icon';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import Tabs from '/components/global-nav/sub-nav/tabs/tabs';
+import Icon from '/basics/icon/icon';
 import Template from './sub-nav.html';
 import './sub-nav.scss';
 

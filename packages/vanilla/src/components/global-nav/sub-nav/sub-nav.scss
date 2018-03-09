@@ -1,8 +1,8 @@
-@import '~basics/colors/colors.scss';
-@import '~basics/shadows/shadows.scss';
-@import '~basics/responsive/responsive.scss';
-@import '~helpers/css/mixins/base.scss';
-@import '~helpers/css/layers.scss';
+@import '../../../basics/colors/colors.scss';
+@import '../../../basics/shadows/shadows.scss';
+@import '../../../basics/responsive/responsive.scss';
+@import '../../../helpers/css/mixins/base.scss';
+@import '../../../helpers/css/layers.scss';
 
 .hig__global-nav__sub-nav {
   @include reset;

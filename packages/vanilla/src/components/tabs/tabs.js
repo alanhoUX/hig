@@ -1,6 +1,6 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
-import Tab from 'components/tabs/tab/tab';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import Tab from '/components/tabs/tab/tab';
 import Template from './tabs.html';
 import './tabs.scss';
 

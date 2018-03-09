@@ -1,5 +1,5 @@
-import Interface from 'interface.json';
-import InputButton from 'basics/form-elements/input-button/input-button';
+import Interface from 'hig-interface';
+import InputButton from '/basics/form-elements/input-button/input-button';
 import Template from './checkbox.html';
 
 /**

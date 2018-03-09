@@ -1,5 +1,5 @@
-import ProgressRing from 'components/progress-ring/progress-ring';
-import Core from '_core.js';
+import ProgressRing from '/components/progress-ring/progress-ring';
+import Core from '/helpers/js/_core';
 import Template from './_loading.html';
 import './_loading.scss';
 

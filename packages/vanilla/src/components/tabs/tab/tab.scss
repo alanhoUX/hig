@@ -1,6 +1,6 @@
-@import '~basics/colors/colors.scss';
-@import '~helpers/css/mixins/spacing.scss';
-@import '~helpers/css/mixins/typography.scss';
+@import '../../../basics/colors/colors.scss';
+@import '../../../helpers/css/mixins/spacing.scss';
+@import '../../../helpers/css/mixins/typography.scss';
 
 .hig__tabs__tab {
   @include typography-large;

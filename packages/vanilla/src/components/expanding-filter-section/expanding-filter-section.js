@@ -1,5 +1,5 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
 import './expanding-filter-section.scss';
 import Template from './expanding-filter-section.html';
 import Icon from '../../basics/icon/icon';

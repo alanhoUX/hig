@@ -1,8 +1,8 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
-import SideNav from 'components/global-nav/side-nav/side-nav';
-import TopNav from 'components/global-nav/top-nav/top-nav';
-import SubNav from 'components/global-nav/sub-nav/sub-nav';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import SideNav from '/components/global-nav/side-nav/side-nav';
+import TopNav from '/components/global-nav/top-nav/top-nav';
+import SubNav from '/components/global-nav/sub-nav/sub-nav';
 import Template from './global-nav.html';
 import './global-nav.scss';
 

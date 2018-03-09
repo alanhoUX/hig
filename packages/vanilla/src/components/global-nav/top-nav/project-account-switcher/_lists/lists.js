@@ -1,5 +1,5 @@
-import Core from '_core.js';
-import List from 'components/global-nav/top-nav/project-account-switcher/_lists/_list/_list';
+import Core from '/helpers/js/_core';
+import List from '/components/global-nav/top-nav/project-account-switcher/_lists/_list/_list';
 import Template from './lists.html';
 
 /**

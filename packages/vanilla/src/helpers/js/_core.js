@@ -1,7 +1,7 @@
 /* globals document, NodeFilter */
 import Mustache from 'mustache';
-import Themes from 'helpers/js/_themes';
-import 'helpers/js/polyfills';
+import Themes from '/helpers/js/_themes';
+import '/helpers/js/polyfills';
 
 class Core {
   /**

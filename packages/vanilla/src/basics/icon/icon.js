@@ -1,6 +1,6 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
-import Icons from 'basics/icons/icons';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import Icons from '/basics/icons/icons';
 import Template from './icon.html';
 import './icon.scss';
 

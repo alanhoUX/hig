@@ -1,14 +1,14 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
-import Profile from 'components/global-nav/top-nav/profile/profile';
-import Shortcut from 'components/global-nav/top-nav/shortcut/shortcut';
-import Help from 'components/global-nav/top-nav/help/help';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import Profile from '/components/global-nav/top-nav/profile/profile';
+import Shortcut from '/components/global-nav/top-nav/shortcut/shortcut';
+import Help from '/components/global-nav/top-nav/help/help';
 import Notifications
-  from 'components/global-nav/top-nav/notifications/notifications';
+  from '/components/global-nav/top-nav/notifications/notifications';
 import ProjectAccountSwitcher
-  from 'components/global-nav/top-nav/project-account-switcher/project-account-switcher';
-import Search from 'components/global-nav/top-nav/search/search';
-import Icon from 'basics/icon/icon';
+  from '/components/global-nav/top-nav/project-account-switcher/project-account-switcher';
+import Search from '/components/global-nav/top-nav/search/search';
+import Icon from '/basics/icon/icon';
 import Template from './top-nav.html';
 import './top-nav.scss';
 

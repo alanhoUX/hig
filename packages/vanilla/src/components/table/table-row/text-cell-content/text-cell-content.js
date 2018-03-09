@@ -1,5 +1,5 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
 import './text-cell-content.scss';
 import Template from './text-cell-content.html';
 

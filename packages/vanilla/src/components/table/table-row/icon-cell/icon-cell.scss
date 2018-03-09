@@ -1,10 +1,10 @@
-@import '~basics/colors/colors.scss';
-@import '~basics/responsive/responsive.scss';
-@import '~helpers/css/mixins/base.scss';
- 
+@import '../../../../basics/colors/colors.scss';
+@import '../../../../basics/responsive/responsive.scss';
+@import '../../../../helpers/css/mixins/base.scss';
+
 .hig__table__icon-cell {
   position: relative;
-  
+
 
   & svg {
     @include vendor-prefix(transform, translateX(-50%) translateY(-50%));

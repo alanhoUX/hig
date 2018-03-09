@@ -1,7 +1,7 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
-import TextHeadCell from 'components/table/table-head/text-head-cell/text-head-cell';
-import SlotHeadCell from 'components/table/table-head/slot-head-cell/slot-head-cell';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import TextHeadCell from '/components/table/table-head/text-head-cell/text-head-cell';
+import SlotHeadCell from '/components/table/table-head/slot-head-cell/slot-head-cell';
 import Template from './table-head.html';
 import './table-head.scss';
 

@@ -1,6 +1,6 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
-import GridItem from 'basics/grid/grid-item/grid-item';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import GridItem from '/basics/grid/grid-item/grid-item';
 import Template from './grid.html';
 import './grid.scss';
 

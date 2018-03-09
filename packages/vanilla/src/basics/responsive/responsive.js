@@ -1,7 +1,8 @@
-import breakpoints from './responsive.scss';
+// import breakpoints from './responsive.scss';
 
-const mappedBreakpoints = Object.entries(breakpoints).reduce((acc, [key, value]) => (
-  Object.assign({}, acc, { [key]: parseInt(value, 10) })
-), {});
+// const mappedBreakpoints = Object.entries(breakpoints).reduce((acc, [key, value]) => (
+//   Object.assign({}, acc, { [key]: parseInt(value, 10) })
+// ), {});
 
-export default mappedBreakpoints;
+// export default mappedBreakpoints;
+export default {};

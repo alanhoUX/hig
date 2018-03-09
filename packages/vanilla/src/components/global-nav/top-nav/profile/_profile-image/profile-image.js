@@ -1,4 +1,4 @@
-import Core from '_core.js';
+import Core from '/helpers/js/_core';
 import Template from './profile-image.html';
 import './profile-image.scss';
 

@@ -1,5 +1,5 @@
 /* globals window */
-import Core from '_core.js';
+import Core from '/helpers/js/_core';
 import Template from './_list.html';
 import './_list.scss';
 import Loading from '../_loading/_loading';

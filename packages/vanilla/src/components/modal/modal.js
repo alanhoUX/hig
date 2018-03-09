@@ -1,8 +1,8 @@
 /* globals document */
-import Interface from 'interface.json';
-import Core from '_core.js';
-import Button from 'components/button/button';
-import Icon from 'basics/icon/icon';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import Button from '/components/button/button';
+import Icon from '/basics/icon/icon';
 import Template from './modal.html';
 import './modal.scss';
 

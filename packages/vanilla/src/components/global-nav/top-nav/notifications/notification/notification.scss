@@ -1,6 +1,7 @@
-@import '~basics/colors/colors.scss';
-@import '~helpers/css/mixins/base.scss';
-@import '~helpers/css/mixins/spacing.scss';
+@import '../../../../../basics/colors/colors.scss';
+@import '../../../../../helpers/css/mixins/base.scss';
+@import '../../../../../helpers/css/mixins/spacing.scss';
+
 .hig__notification {
   position: relative;
   border-bottom: 1px solid color(hig-cool-gray-20);

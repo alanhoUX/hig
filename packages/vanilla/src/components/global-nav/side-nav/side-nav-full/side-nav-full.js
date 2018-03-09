@@ -1,9 +1,9 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
-import IconButton from 'components/icon-button/icon-button';
-import Link from 'components/global-nav/side-nav/link/link';
-import Search from 'components/global-nav/side-nav/search/search';
-import Group from 'components/global-nav/side-nav/group/group';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import IconButton from '/components/icon-button/icon-button';
+import Link from '/components/global-nav/side-nav/link/link';
+import Search from '/components/global-nav/side-nav/search/search';
+import Group from '/components/global-nav/side-nav/group/group';
 import Template from './side-nav-full.html';
 import './side-nav-full.scss';
 

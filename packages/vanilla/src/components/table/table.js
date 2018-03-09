@@ -1,7 +1,7 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
-import TableHead from 'components/table/table-head/table-head';
-import TableRow from 'components/table/table-row/table-row';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import TableHead from '/components/table/table-head/table-head';
+import TableRow from '/components/table/table-row/table-row';
 import Template from './table.html';
 import './table.scss';
 

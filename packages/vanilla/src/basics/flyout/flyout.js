@@ -1,7 +1,7 @@
 /* globals window */
-import Interface from 'interface.json';
-import Core from '_core.js';
-import CSSTransition from 'helpers/js/css-transition';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import CSSTransition from '/helpers/js/css-transition';
 import Template from './flyout.html';
 import './flyout.scss';
 

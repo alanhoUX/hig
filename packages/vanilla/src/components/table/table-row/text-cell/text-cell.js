@@ -1,6 +1,6 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
-import TextCellContent from 'components/table/table-row/text-cell-content/text-cell-content';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import TextCellContent from '/components/table/table-row/text-cell-content/text-cell-content';
 import Template from './text-cell.html';
 import './text-cell.scss';
 

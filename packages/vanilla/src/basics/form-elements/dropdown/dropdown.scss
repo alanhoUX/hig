@@ -1,7 +1,7 @@
-@import '~basics/fonts/fonts.scss';
-@import '~basics/colors/colors.scss';
-@import '~helpers/css/mixins/base.scss';
-@import '~helpers/css/layers.scss';
+@import '../../../basics/fonts/fonts.scss';
+@import '../../../basics/colors/colors.scss';
+@import '../../../helpers/css/mixins/base.scss';
+@import '../../../helpers/css/layers.scss';
 
 .hig__dropdown {
   min-width: 300px;

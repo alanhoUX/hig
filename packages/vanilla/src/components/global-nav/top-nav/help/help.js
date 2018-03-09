@@ -1,9 +1,9 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
-import Flyout from 'basics/flyout/flyout';
-import Shortcut from 'components/global-nav/top-nav/shortcut/shortcut';
-import Group from 'components/global-nav/top-nav/help/group/group';
-import Option from 'components/global-nav/top-nav/help/option/option';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import Flyout from '/basics/flyout/flyout';
+import Shortcut from '/components/global-nav/top-nav/shortcut/shortcut';
+import Group from '/components/global-nav/top-nav/help/group/group';
+import Option from '/components/global-nav/top-nav/help/option/option';
 import './help.scss';
 import Template from './help.html';
 

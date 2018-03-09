@@ -1,7 +1,7 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
-import IconButton from 'components/icon-button/icon-button';
-import Group from 'components/global-nav/side-nav/group/group';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import IconButton from '/components/icon-button/icon-button';
+import Group from '/components/global-nav/side-nav/group/group';
 import Template from './side-nav-compact.html';
 import './side-nav-compact.scss';
 

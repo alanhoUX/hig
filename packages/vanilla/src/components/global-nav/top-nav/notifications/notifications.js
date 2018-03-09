@@ -1,8 +1,8 @@
 /* globals window */
-import Interface from 'interface.json';
-import Core from '_core.js';
-import Shortcut from 'components/global-nav/top-nav/shortcut/shortcut';
-import Flyout from 'basics/flyout/flyout';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import Shortcut from '/components/global-nav/top-nav/shortcut/shortcut';
+import Flyout from '/basics/flyout/flyout';
 import './notifications.scss';
 import Template from './notifications.html';
 import Notification from './notification/notification';

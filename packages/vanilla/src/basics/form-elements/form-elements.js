@@ -1,13 +1,13 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
 
-import Checkbox from 'basics/form-elements/checkbox/checkbox';
-import Dropdown from 'basics/form-elements/dropdown/dropdown';
-import PasswordField from 'basics/form-elements/password-field/password-field';
-import TextField from 'basics/form-elements/text-field/text-field';
-import TextArea from 'basics/form-elements/text-area/text-area';
-import Range from 'basics/form-elements/range/range';
-import RadioButton from 'basics/form-elements/radio-button/radio-button';
+import Checkbox from '/basics/form-elements/checkbox/checkbox';
+import Dropdown from '/basics/form-elements/dropdown/dropdown';
+import PasswordField from '/basics/form-elements/password-field/password-field';
+import TextField from '/basics/form-elements/text-field/text-field';
+import TextArea from '/basics/form-elements/text-area/text-area';
+import Range from '/basics/form-elements/range/range';
+import RadioButton from '/basics/form-elements/radio-button/radio-button';
 
 /**
  * Holder for FormElements

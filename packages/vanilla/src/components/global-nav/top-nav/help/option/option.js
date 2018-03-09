@@ -1,5 +1,5 @@
-import Core from '_core.js';
-import Interface from 'interface.json';
+import Core from '/helpers/js/_core';
+import Interface from 'hig-interface';
 import './option.scss';
 import Template from './option.html';
 

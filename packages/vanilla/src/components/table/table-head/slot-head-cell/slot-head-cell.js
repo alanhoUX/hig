@@ -1,6 +1,6 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
-import frToPercentage from 'helpers/js/_frtopercentage';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core.js';
+import frToPercentage from '/helpers/js/_frtopercentage';
 import Template from './slot-head-cell.html';
 import './slot-head-cell.scss';
 

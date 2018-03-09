@@ -1,9 +1,9 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
-import CSSTransition from 'helpers/js/css-transition';
-import Timestamp from 'basics/timestamp/timestamp';
-import RichText from 'basics/rich-text/rich-text';
-import IconButton from 'components/icon-button/icon-button';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import CSSTransition from '/helpers/js/css-transition';
+import Timestamp from '/basics/timestamp/timestamp';
+import RichText from '/basics/rich-text/rich-text';
+import IconButton from '/components/icon-button/icon-button';
 import './notification.scss';
 import Template from './notification.html';
 

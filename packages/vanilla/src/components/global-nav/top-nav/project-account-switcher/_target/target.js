@@ -1,6 +1,6 @@
-import Core from '_core.js';
-import Item from 'components/global-nav/top-nav/project-account-switcher/_item/item';
-import Icon from 'basics/icon/icon';
+import Core from '/helpers/js/_core';
+import Item from '/components/global-nav/top-nav/project-account-switcher/_item/item';
+import Icon from '/basics/icon/icon';
 import Template from './target.html';
 import './target.scss';
 

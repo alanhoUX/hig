@@ -1,5 +1,5 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core.js';
 import './spacer.scss';
 import Template from './spacer.html';
 

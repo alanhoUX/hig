@@ -1,1 +1,2 @@
-export { default } from './colors.scss';
+// export { default } from './colors.scss';
+export default {};

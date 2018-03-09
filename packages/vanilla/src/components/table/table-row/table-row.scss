@@ -1,5 +1,5 @@
-@import '~basics/colors/colors.scss';
-@import '~basics/responsive/responsive.scss';
+@import '../../../basics/colors/colors.scss';
+@import '../../../basics/responsive/responsive.scss';
 
 .hig__table__row--selected {
   background-color: color(hig-blue-10)

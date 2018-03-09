@@ -1,8 +1,8 @@
-@import '~basics/fonts/fonts.scss';
-@import '~basics/colors/colors.scss';
-@import '~helpers/css/mixins/base.scss';
-@import '~helpers/css/mixins/placeholder.scss';
-@import '~helpers/css/mixins/typography.scss';
+@import '../../../basics/fonts/fonts.scss';
+@import '../../../basics/colors/colors.scss';
+@import '../../../helpers/css/mixins/base.scss';
+@import '../../../helpers/css/mixins/placeholder.scss';
+@import '../../../helpers/css/mixins/typography.scss';
 
 .hig__text-area {
   position: relative;

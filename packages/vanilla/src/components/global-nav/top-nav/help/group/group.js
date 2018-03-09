@@ -1,6 +1,6 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
-import Option from 'components/global-nav/top-nav/help/option/option';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import Option from '/components/global-nav/top-nav/help/option/option';
 import Template from './group.html';
 import './group.scss';
 

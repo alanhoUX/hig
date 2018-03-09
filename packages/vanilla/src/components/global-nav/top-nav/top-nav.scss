@@ -1,7 +1,7 @@
-@import '~basics/colors/colors.scss';
-@import '~basics/shadows/shadows.scss';
-@import '~helpers/css/mixins/base.scss';
-@import '~helpers/css/layers.scss';
+@import '../../../basics/colors/colors.scss';
+@import '../../../basics/shadows/shadows.scss';
+@import '../../../helpers/css/mixins/base.scss';
+@import '../../../helpers/css/layers.scss';
 $hig__global-nav__top-nav--height: 56px;
 .hig__global-nav__top-nav {
   @include reset;

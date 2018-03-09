@@ -1,8 +1,8 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
-import Flyout from 'basics/flyout/flyout';
-import ProfileImage from 'components/global-nav/top-nav/profile/_profile-image/profile-image';
-import ProfileFlyoutContent from 'components/global-nav/top-nav/profile/_profile-flyout-content/profile-flyout-content';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import Flyout from '/basics/flyout/flyout';
+import ProfileImage from '/components/global-nav/top-nav/profile/_profile-image/profile-image';
+import ProfileFlyoutContent from '/components/global-nav/top-nav/profile/_profile-flyout-content/profile-flyout-content';
 import Template from './profile.html';
 import './profile.scss';
 /**

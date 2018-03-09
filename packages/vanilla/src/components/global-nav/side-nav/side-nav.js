@@ -1,7 +1,7 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
 import SideNavSkeleton
-  from 'components/global-nav/side-nav/side-nav-skeleton/side-nav-skeleton';
+  from '/components/global-nav/side-nav/side-nav-skeleton/side-nav-skeleton';
 import SideNavCompact from './side-nav-compact/side-nav-compact';
 import SideNavFull from './side-nav-full/side-nav-full';
 import Template from './side-nav.html';

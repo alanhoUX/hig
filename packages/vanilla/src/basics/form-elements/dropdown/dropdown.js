@@ -1,8 +1,8 @@
 /* globals document, window */
-import Core from '_core.js';
-import Interface from 'interface.json';
-import TextField from 'basics/form-elements/text-field/text-field';
-import Option from 'basics/form-elements/option/option';
+import Core from '/helpers/js/_core';
+import Interface from 'hig-interface';
+import TextField from '/basics/form-elements/text-field/text-field';
+import Option from '/basics/form-elements/option/option';
 import Template from './dropdown.html';
 import './dropdown.scss';
 

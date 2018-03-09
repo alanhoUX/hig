@@ -1,6 +1,6 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
-import SkeletonItem from 'components/skeleton-item/skeleton-item';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import SkeletonItem from '/components/skeleton-item/skeleton-item';
 import './side-nav-skeleton.scss';
 import Template from './side-nav-skeleton.html';
 

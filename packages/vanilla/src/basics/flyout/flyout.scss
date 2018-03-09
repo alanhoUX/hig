@@ -1,6 +1,6 @@
 @import '../../basics/colors/colors.scss';
 @import '../../basics/shadows/shadows.scss';
-@import '~helpers/css/layers.scss';
+@import '../../helpers/css/layers.scss';
 @mixin chevron-border() {
   content: '';
   position: absolute;

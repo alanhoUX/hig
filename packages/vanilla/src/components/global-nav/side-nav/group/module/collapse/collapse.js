@@ -1,6 +1,6 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
-import Icon from 'basics/icon/icon';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import Icon from '/basics/icon/icon';
 import Template from './collapse.html';
 import './collapse.scss';
 

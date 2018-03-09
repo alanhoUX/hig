@@ -1,5 +1,5 @@
 /* globals performance, window */
-import CSSTransition from 'helpers/js/css-transition';
+import CSSTransition from '/helpers/js/css-transition';
 
 const MAX_INCREASE_PER_MS = 1 / 1000;
 

@@ -1,7 +1,7 @@
 /* globals document */
-import Interface from 'interface.json';
-import Core from '_core.js';
-import Flyout from 'basics/flyout/flyout';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import Flyout from '/basics/flyout/flyout';
 import './tooltip.scss';
 
 const ANCHOR_POINTS = [

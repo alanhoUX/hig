@@ -1,6 +1,6 @@
-import Interface from 'interface.json';
-import Core from '_core.js';
-import Module from 'components/global-nav/side-nav/group/module/module';
+import Interface from 'hig-interface';
+import Core from '/helpers/js/_core';
+import Module from '/components/global-nav/side-nav/group/module/module';
 import Template from './group.html';
 import './group.scss';
 
