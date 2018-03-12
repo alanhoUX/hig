@@ -14,7 +14,7 @@
     "lib/hig.css"
   ],
   "css": "lib/hig.css",
-  "module": "dist/bundle",
+  "module": "lib/hig.es.js",
   "scripts": {
     "build-icons": "node src/basics/icons/build/build.js",
     "deploy": "yarn lib && surge .",
@@ -60,6 +60,9 @@
     "rollup": "^0.56.5",
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-collect-sass": "^1.0.9",
+    "rollup-plugin-commonjs": "^9.0.0",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-node-resolve": "^3.2.0",
     "rollup-plugin-root-import": "^0.2.2",
     "rollup-plugin-scss": "^0.4.0",
     "rollup-plugin-string": "^2.0.2",
