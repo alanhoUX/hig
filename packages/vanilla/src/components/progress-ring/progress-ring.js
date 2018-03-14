@@ -39,12 +39,6 @@ const sizes = {
 };
 
 class ProgressRing extends Core {
-  static _partials = {};
-  static _defaults = {
-    size: AvailableSizes[2]
-  }
-  static AvailableSizes = AvailableSizes;
-
   constructor(options = {}) {
     super(options);
 
@@ -88,6 +82,12 @@ class ProgressRing extends Core {
     this.el.setAttribute('aria-valuenow', percentComplete);
   }
 }
+
+ProgressRing._partials = {};
+ProgressRing._defaults = {
+  size: AvailableSizes[2]
+};
+ProgressRing.AvailableSizes = AvailableSizes;
 
 ProgressRing._interface = Interface.components.ProgressRing;
 

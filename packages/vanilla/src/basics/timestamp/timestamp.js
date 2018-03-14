@@ -14,15 +14,20 @@ class Timestamp extends Core {
     super(options);
     this._render(Template, options);
     this.initialOptions = options;
+    [].forEach((fn) => {
+      this[fn] = this[fn].bind(this);
+    });
   }
 
   setTimestamp(timestamp) {
     this.el.textContent = this._calculateTimestamp(timestamp);
   }
 
-  _pluralize = (word, count) => (count === 1 ? word : `${word}s`);
+  _pluralize(word, count) {
+    return count === 1 ? word : `${word}s`;
+  }
 
-  _calculateTimestamp = (timestamp) => {
+  _calculateTimestamp(timestamp) {
     const asSeconds = Date.parse(timestamp) / 1000; // TODO: handle future timestamps, or bad input?
     const nowAsSeconds = new Date().valueOf() / 1000;
 
@@ -56,7 +61,7 @@ class Timestamp extends Core {
     }
 
     return `${timePassed} ago`;
-  };
+  }
 }
 
 Timestamp._interface = Interface.basics.Timestamp;

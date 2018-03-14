@@ -13,6 +13,9 @@ class CSSTransition {
 
     this.state = 'exited';
     this.el.classList.add(this.exitedClass);
+    ['handleEnterComplete', 'handleExitComplete'].forEach((fn) => {
+      this[fn] = this[fn].bind(this);
+    });
   }
 
   enter() {
@@ -46,13 +49,13 @@ class CSSTransition {
     this.el.classList.remove(...this.animationClasses);
   }
 
-  handleEnterComplete = () => {
+  handleEnterComplete() {
     this.state = 'entered';
     this.clearState();
     this.el.classList.add(this.enteredClass);
   }
 
-  handleExitComplete = () => {
+  handleExitComplete() {
     this.state = 'exited';
     this.clearState();
     this.el.classList.add(this.exitedClass);

@@ -51,7 +51,7 @@ async function build() {
   let bundle;
   try {
     bundle = await rollup.rollup(inputOptions);
-    // bundle.write(esModulesOutputOptions);
+    bundle.write(esModulesOutputOptions);
     bundle.write(browserFriendlyOutputOptions);
   } catch (e) {
     console.log(e);

@@ -19,6 +19,8 @@ class ProgressRingDeterminate {
       enteringDuration: 650,
       exitingDuration: 466
     });
+
+    this.step = this.step.bind(this);
   }
 
   initSegments() {
@@ -36,7 +38,7 @@ class ProgressRingDeterminate {
     window.requestAnimationFrame(this.step);
   }
 
-  step = (timestamp) => {
+  step(timestamp) {
     if (this.containerAnimation.isEntering() || this.containerAnimation.isExiting()) {
       this.wait();
       return;

@@ -20,6 +20,7 @@ class Notification extends Core {
     super(options);
     this._render(Template, options);
     this.intialOptions = options;
+    this._callBackIfTargetIsAnchor = this._callBackIfTargetIsAnchor.bind(this);
   }
 
   _componentDidMount() {
@@ -90,11 +91,11 @@ class Notification extends Core {
     );
   }
 
-  _callBackIfTargetIsAnchor = (event) => {
+  _callBackIfTargetIsAnchor(event) {
     if (this.onClickCallback && event.target.tagName === 'A') {
       this.onClickCallback(event);
     }
-  };
+  }
 }
 
 Notification._interface =

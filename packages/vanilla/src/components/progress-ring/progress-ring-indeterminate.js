@@ -19,6 +19,7 @@ class ProgressRingIndeterminate {
       exitingDuration: 466
     });
     this.containerAnimation.enter();
+    this.step = this.step.bind(this);
   }
 
   initSegments() {
@@ -28,7 +29,7 @@ class ProgressRingIndeterminate {
     this.SEGMENT_DELAY_FACTOR = CYCLE_DURATION / this.SEGMENT_COUNT;
   }
 
-  step = (timestamp) => {
+  step(timestamp) {
     if (!this.playing) { return; }
     if (!this.containerAnimation.isEntered()) {
       window.requestAnimationFrame(this.step);

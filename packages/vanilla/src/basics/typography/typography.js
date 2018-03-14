@@ -10,30 +10,6 @@ import Template from './typography.html';
  */
 
 export default class Typography extends Core {
-  static VALID_TYPES = [
-    'h1',
-    'h2',
-    'h3',
-    'text',
-    // Deprecated types start below
-    'sub1',
-    'sub2',
-    'body',
-    'bold',
-    'disabled',
-    'caption'
-  ];
-
-  static VALID_SIZES = ['small', 'medium', 'large'];
-  static VALID_COLORS = [
-    'hig-white',
-    'hig-cool-gray-70',
-    'hig-blue-50',
-    'hig-green-good',
-    'hig-yellow-warning',
-    'hig-red-alert'
-  ];
-
   constructor(options) {
     super(options);
     this._checkOptionsForCompliance(options);
@@ -115,6 +91,29 @@ export default class Typography extends Core {
     }
   }
 }
+
+Typography.VALID_TYPES = [
+  'h1',
+  'h2',
+  'h3',
+  'text',
+  // Deprecated types start below
+  'sub1',
+  'sub2',
+  'body',
+  'bold',
+  'disabled',
+  'caption'
+];
+Typography.VALID_SIZES = ['small', 'medium', 'large'];
+Typography.VALID_COLORS = [
+  'hig-white',
+  'hig-cool-gray-70',
+  'hig-blue-50',
+  'hig-green-good',
+  'hig-yellow-warning',
+  'hig-red-alert'
+];
 
 Typography._interface = Interface.basics.Typography;
 Typography._defaults = {

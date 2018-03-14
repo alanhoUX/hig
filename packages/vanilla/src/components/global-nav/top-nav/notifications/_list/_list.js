@@ -14,6 +14,7 @@ class List extends Core {
   constructor(options) {
     super(options);
     this._render(Template, options);
+    this._optimizedOnScroll = this._optimizedOnScroll.bind(this);
   }
 
   _componentDidMount() {
@@ -76,7 +77,7 @@ class List extends Core {
     );
   }
 
-  _optimizedOnScroll = fn => () => {
+  _optimizedOnScroll(fn) {
     let ticking = false;
     if (!ticking) {
       const lastKnownScrollPosition = this.listContent.scrollTop;
