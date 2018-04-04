@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
   module: {
     rules: [
@@ -13,5 +15,17 @@ module.exports = {
         }
       }
     ]
+  },
+  resolve: {
+    alias: {
+      "hig-react": path.resolve(
+        __dirname,
+        "../../packages/react/src/hig-react.js"
+      ),
+      "hig-vanilla": path.resolve(
+        __dirname,
+        "../../packages/vanilla/src/index.js"
+      )
+    }
   }
 };
